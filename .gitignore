@@ -1,0 +1,9 @@
+node_modules/
+setuply-project/
+setuply-project-vue/
+.npmrc
+index.js
+run.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -1,0 +1,49 @@
+{
+	"name": "create-setuply",
+	"version": "1.0.1",
+	"description": "Quickly create beautiful and efficient Windows application installers — powered by Tauri2",
+	"keywords": [
+		"scaffolding",
+		"cli-tool",
+		"windows-installer"
+	],
+	"homepage": "https://github.com/phaoer/create-setuply",
+	"bugs": "https://github.com/phaoer/create-setuply/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/phaoer/create-setuply"
+	},
+	"license": "MIT",
+	"author": "phaoer <phaoer@sina.cn> (https://github.com/phaoer)",
+	"type": "module",
+	"main": "index.js",
+	"bin": {
+		"create-setuply": "./bin/create-setuply.js"
+	},
+	"files": [
+		"bin",
+		"index.js",
+		"run.js",
+		"templates"
+	],
+	"scripts": {
+		"build": "tsc",
+		"create-setuply": "node ./bin/create-setuply.js"
+	},
+	"dependencies": {
+		"chalk": "^5.5.0",
+		"semver": "^7.7.2",
+		"yargs-parser": "^22.0.0",
+		"yeoman-environment": "^4.4.3",
+		"yeoman-generator": "^7.5.1"
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"prettier-plugin-organize-imports": "^4.2.0",
+		"prettier-plugin-packagejson": "^2.5.19",
+		"typescript": "^5.9.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

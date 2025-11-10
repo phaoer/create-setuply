@@ -1,0 +1,49 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color: #0f0f0f;
+	background-color: #f6f6f6;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+}
+
+.demo__header {
+	height: 40px;
+	padding: 0 12px;
+}
+
+.demo__header__text {
+	font-size: 14px;
+	color: #474a4f;
+}
+
+.demo__logo {
+	margin-bottom: 20px;
+}
+
+.demo__body {
+	height: 120px;
+	padding: 0 20px 0;
+}
